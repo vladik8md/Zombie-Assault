@@ -28,7 +28,7 @@ void Level::pause()
 
 void Level::setPlayerName(string& playerName, Player& player) {
 	cout << endl << " Text Mode Game | Zombie Assault" << endl;
-	cout << endl << " My players name is: ";
+	cout << endl << " Numele eroului meu este: ";
 	cin >> playerName;
 	player.name = playerName;
 }

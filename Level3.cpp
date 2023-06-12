@@ -36,5 +36,7 @@ void Level3::start(Player& player, Enemy& enemy, Level& level, Interface& interf
 	level.pause();
 	system("cls");
 
+	enemy.name = "General";
+
 	level.save(enemy, player);
 }

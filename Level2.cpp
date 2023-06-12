@@ -37,5 +37,7 @@ void Level2::start(Player& player, Enemy& enemy, Level& level, Interface& interf
 	level.pause();
 	system("cls");
 
+	enemy.name = "Major";
+
 	level.save(enemy, player);
 }

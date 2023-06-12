@@ -39,5 +39,7 @@ void Level1::start(Player& player, Enemy& enemy, Level& level, Interface& interf
 	level.pause();
 	system("cls");
 
+	enemy.name = "Corporal";
+
 	level.save(enemy, player);
 }
